@@ -55,9 +55,10 @@ public class MainActivity extends AppCompatActivity {
                 if (mStringBuilder.length() != 0) {
                     mStringBuilder.deleteCharAt(mStringBuilder.length() - 1);
                     mExpressionTextView.setText(mStringBuilder.toString());
+
+                    result();
                 }
 
-                result();
             break;
 
             default:
